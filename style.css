@@ -1,0 +1,71 @@
+* {
+	margin:0;
+	padding: 0;
+	font-size: 16px;
+}
+
+img{
+	max-width: 100%;
+}
+
+body{
+	font-family:'Roboto', sans-serif;
+	background: url('img/background.jpg')no-repeat center top;
+	background-size: cover;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-layout{
+	margin-top: 200px;
+}
+
+.form-layout h1.text-center {
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+
+.form-basic{
+	width: 70%;
+	height: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2em 2em;
+    background: rgb(255, 255, 255);
+    -webkit-box-shadow: 15px 15px 19px 0px rgba(8, 8, 8, 0.52);
+    -moz-box-shadow: 15px 15px 19px 0px rgba(8, 8, 8, 0.52);
+    box-shadow: 15px 15px 19px 0px rgba(8, 8, 8, 0.52);
+}
+
+
+.form-group div{
+	padding-bottom: 20px;
+}
+
+div.radio-select{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+ul.radio-section li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin: 0em 1em 0 0;
+}
+
+.btn.btn-lg.btn-info.text-center{
+	width: 300px;
+}
+
+.clear {
+    clear: both;
+}
+
+.copyright{
+	margin-top: 50px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
